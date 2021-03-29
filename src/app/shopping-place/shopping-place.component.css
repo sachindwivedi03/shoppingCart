@@ -1,0 +1,15 @@
+.item-container{
+    width: 80%;
+    border: solid 2px violet;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.item-container >*{
+    padding: 4px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+<div class="cart-item-container">
+    <div class="item-div" *ngFor="let item of items; let i = index">
+        <div class="item-product">
+            <div class="item-img"></div>
+            <h4>{{ item.name }}</h4>
+            <h5>{{ item.description }}</h5>
+        </div>
+        <div class="item-remove">
+            <ul>
+                <li (click)="onRemoveFromCart(i)">Remove From Cart</li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="login-box">
+        <div class=center-content>
+            <p class="heading1">
+                Login
+            </p>
+            <!-- <form (ngSubmit)="onSubmit(f)" #f="ngForm"> -->
+            <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                <div class="form-grouping">
+                    <label for="email">Email</label>
+                    <input 
+                        type="email" 
+                        class="form-control" 
+                        id="email"
+                        name="email"
+                        ngModel
+                        required>
+                </div>
+                <div class="form-grouping">
+                    <label for="password">Password</label>
+                    <input 
+                        type="password" 
+                        class="form-control" 
+                        id="password"
+                        name="password"
+                        ngModel
+                        required>
+                </div>
+                <div class="btn-span">
+                    <button 
+                        class="btn-submit"
+                        type="submit"
+                        [disabled]="!f.valid">Login</button>
+                    <button 
+                        class="btn-cancel"
+                        type="button"
+                        (click)="onClear()">Clear</button>
+                    <button 
+                        class="btn-normal"
+                        type="button">Login</button>
+                    <p>Create new Account</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

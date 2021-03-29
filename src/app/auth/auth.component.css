@@ -1,0 +1,55 @@
+.login-box{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px indigo;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.center-content{
+    width: 80%;
+    padding: 10px;
+    background-color: khaki;
+}
+
+.center-content>*{
+    padding: 5px;
+}
+
+.form-grouping input{
+    display: block;
+    width: 100%;
+    height: 1.8em;
+    outline: none;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px 0;
+    padding: 3px 3px;
+}
+
+.form-grouping label{
+    color: gray;
+    font-size: 0.8em;
+}
+
+.form-grouping input:focus{
+   -webkit-box-shadow: 0 0 10px 2px lightskyblue;
+   -moz-box-shadow: 0 0 10px 2px lightskyblue;
+   box-shadow: 0 0 10px 2px lightskyblue;
+}
+
+.btn-span{
+    color: gray;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-span p {
+    margin: auto 0 ;
+}
+

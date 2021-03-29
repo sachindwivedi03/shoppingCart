@@ -1,0 +1,26 @@
+.cart-item-container{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.cart-item-container >*{
+    margin: 4px;
+    margin-bottom: 10px;
+}
+
+.item-remove ul{
+    list-style-type: none;
+}
+.item-remove li{
+    color: seagreen;
+    justify-content: center;
+    text-align: center;
+}
+.item-remove li:hover{
+    cursor: pointer;
+    color: rgb(209, 12, 12);
+}

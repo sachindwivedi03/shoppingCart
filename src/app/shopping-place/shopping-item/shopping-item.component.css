@@ -1,0 +1,48 @@
+.item-div{
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: ghostwhite;
+    border-style: solid;
+    border-color: teal;
+    border-width: 2px;
+}
+
+.item-img{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: teal 2px solid;
+    background-image: url("../../../assets/images/backgroundImage.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-product{
+    height: 85%;
+    width: 100%;
+}
+.item-product h4{
+    color: teal;
+    margin-left: 10px;
+}
+
+.item-product h5{
+    color: tan;
+    margin-left: 10px;
+}
+
+.item-add ul{
+    color: teal;
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.item-add li:hover{
+    cursor: pointer;
+    color:greenyellow;
+}
